@@ -69,32 +69,6 @@
     transition: all 0.3s ease; 
 }
 
-.navbar__btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1rem;
-    width: 100%;
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    padding: 10px 20px;
-    height: 100%;
-    width: 100%;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    color: #fff;
-    transition: all 0.3s ease;
-}
-
 .navbar__links:hover {
     color: #9518fc;
     transition: all 0.3s ease; 
@@ -155,18 +129,6 @@
         width: 100%;
         display: table;
     }
-
-    .navbar__btn {
-        padding-bottom: 2rem;
-    }
-
-    .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 80px;
-        margin: 0;
     }
 
     #mobile-menu {
@@ -192,7 +154,6 @@
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-}
 
 /* Hero Section */
 
@@ -562,6 +523,60 @@
     .league-info__wrapper {
       grid-template-columns: 1fr;
     }
+  }
+
+  /* Github Section */
+
+  .github {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+  }
+
+  .github__btn {
+    font-size: 1.8rem;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    padding: 30px 200px;
+    border: none;
+    border-radius: 4px;
+    margin-top: auto;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    align-items: center;
+  }
+
+  .github__content {
+    color: #fff;
+    width: 100%;
+  }
+
+  #github {
+    background: #131313;
+  }
+
+  .github__content h1 {
+    font-size: 2rem;
+    background-color: #fe3b6f;
+    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+
+  .github__content p {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 30px
   }
 
   /* Footer Section */
