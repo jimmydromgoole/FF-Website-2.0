@@ -579,6 +579,26 @@
     padding-bottom: 30px
   }
 
+  @media screen and (max-width:768px) {
+    .github {
+      height: auto;
+      padding: 20px;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width:1300px) {
+    .github {
+      height: auto;
+      padding: 20px;
+      text-align: center;
+    }
+  }
+
+  .github__btn {
+    padding: 15px 40px; 
+}
+
   /* Footer Section */
 
   .website__rights {
