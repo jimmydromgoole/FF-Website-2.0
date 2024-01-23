@@ -181,7 +181,7 @@
 }
 
 .hero__heading span {
-    background: #000000;  
+    background: #FF652F;  
     background-size: 100%;
     -webkit-background-clip: text;
     background-clip: text;
@@ -253,7 +253,7 @@
   
   .main__content h2 {
     font-size: 4rem;
-    background: #000;
+    background: #FF652F;
     background-size: 100%;
     -webkit-background-clip: text;
     background-clip: text;
