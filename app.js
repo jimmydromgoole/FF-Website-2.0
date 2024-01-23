@@ -34,19 +34,19 @@ if (window.innerWidth > 960 && scrollPos < 600) {
     leagueInfoMenu.classList.remove('highlight');
     return;
 
-  } else if (window.innerWidth > 960 && scrollPos < 2160) {
+  } else if (window.innerWidth > 960 && scrollPos < 2100) {
     leagueInfoMenu.classList.add('highlight');
     showcaseMenu.classList.remove('highlight');
     githubMenu.classList.remove('highlight');
     return;
 
-  } else if (window.innerWidth > 960 && scrollPos < 2380) {
+  } else if (window.innerWidth > 960 && scrollPos < 3350) {
     githubMenu.classList.add('highlight');
     leagueInfoMenu.classList.remove('highlight');
     return;
   }
 
-  if ((elem && window.innerWidth < 960 && scrollPos < 2800) || elem) {
+  if ((elem && window.innerWidth < 960 && scrollPos < 600) || elem) {
     elem.classList.remove('highlight');
   }
 };

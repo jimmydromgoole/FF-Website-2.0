@@ -7,7 +7,7 @@
 }
 
 .navbar {
-    background: #131313;
+    background: #FF652F;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -30,10 +30,10 @@
 }
 
 #navbar__logo {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-color: #131313; 
     background-size: 100%;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
@@ -70,7 +70,7 @@
 }
 
 .navbar__links:hover {
-    color: #9518fc;
+    color: #131313;
     transition: all 0.3s ease; 
 }
 
@@ -158,8 +158,7 @@
 /* Hero Section */
 
 .hero {
-    background: #000000;
-    background: linear-gradient(to right, #161616, #000000);
+    background: #131313;
     padding: 200px 0;
 }
 
@@ -182,28 +181,27 @@
 }
 
 .hero__heading span {
-    background: #ee0979;  
-    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979); 
-    background: linear-gradient(to right, #ff6a00, #ee0979); 
+    background: #000000;  
     background-size: 100%;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -mo-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 .hero__description {
     font-size: 60px;
-    background: #da22ff;
-    background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
+    background: #C5C6C7;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
 
 .highlight {
-    border-bottom: 4px solid rgb(132, 0, 255);
+    border-bottom: 4px solid #fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -242,10 +240,10 @@
 
 .main__content h1 {
     font-size: 2rem;
-    background-color: #fe3b6f;
-    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+    background-color: #fff;   
     background-size: 100%;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
@@ -255,11 +253,10 @@
   
   .main__content h2 {
     font-size: 4rem;
-    background: #ff8177;
-    background: -webkit-linear-gradient(to right, #9114ff, #da22ff); 
-    background: linear-gradient(to right, #8f0eff, #da22ff);
+    background: #000;
     background-size: 100%;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
@@ -273,9 +270,7 @@
 
   .main__btn {
     font-size: 1.8rem;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: #FF652F;
     padding: 20px 60px;
     border: none;
     border-radius: 4px;
@@ -299,7 +294,7 @@
     top: 0;
     left: 0;
     height: 100%;
-    background: #ff1ead;
+    background: #747474;
     transition: all 0.35s;
     border-radius: 4px;
   }
@@ -325,17 +320,11 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-color: #FF652F;
   }
 
   .fa-solid, .fa-football, .fa-users {
     font-size: 14rem;
-  }
-
-  #card-2 {
-    background: #ff512f;
-    background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
-    background: linear-gradient(to right, #dd2476, #ff512f);
   }
 
   /* Mobile Responsive */
@@ -421,10 +410,10 @@
   }
   
   .league-info h1 {
-    background-color: #ff8177;
-    background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+    background-color: #fff;
     background-size: 100%;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
@@ -447,34 +436,16 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-color: #FF652F;
     transition: 0.3s ease-in;
   }
   
   .league-info__card:nth-child(2) {
-    background: #1fa2ff;
-    background: -webkit-linear-gradient(
-      to right,
-      #a6ffcb,
-      #12d8fa,
-      #1fa2ff
-    );
-    background: linear-gradient(
-      to right,
-      #a6ffcb,
-      #12d8fa,
-      #1fa2ff
-    );
+    background: #FF652F;
   }
   
   .league-info__card:nth-child(3) {
-    background-image: linear-gradient(
-      -225deg,
-      #231557 0%,
-      #44107a 29%,
-      #ff1361 67%,
-      #fff800 100%
-    );
+    background: #FF652F;
   }
   
   .league-info__card h2 {
@@ -533,13 +504,13 @@
     align-items: center;
     justify-content: center;
     height: 40vh;
+    text-align: center;
   }
 
   .github__btn {
     font-size: 1.8rem;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: #FF652F;
+    color: #fff;
     padding: 30px 200px;
     border: none;
     border-radius: 4px;
@@ -562,10 +533,10 @@
 
   .github__content h1 {
     font-size: 2rem;
-    background-color: #fe3b6f;
-    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+    background-color: #FF652F;
     background-size: 100%;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
@@ -577,6 +548,10 @@
     font-size: 1.5rem;
     text-align: center;
     padding-bottom: 30px
+  }
+
+  .github__btn a {
+    color: #fff;
   }
 
   @media screen and (max-width:768px) {
@@ -596,11 +571,12 @@
   }
 
   .github__btn {
-    padding: 15px 40px; 
+    padding: 15px 60px;
 }
 
   /* Footer Section */
 
   .website__rights {
     text-align: center;
+    background-color: #C5C6C7;
   }
