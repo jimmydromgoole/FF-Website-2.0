@@ -212,13 +212,6 @@ transition: all 0.3s ease;
       color: #FF652F;
     }
 
-    .pr__content p1 {
-      margin-top: 1rem;
-      font-size: 1rem;
-      padding: 0;
-      width: 300px;
-      color:#fff
-    }
   }
 
   @media screen and (max-width: 480px) {
@@ -226,12 +219,6 @@ transition: all 0.3s ease;
     .pr__content h1 {
       font-size: 2rem;
       margin-top: 3rem;
-      padding: 0;
-    }
-
-    .pr__content p {
-      margin-top: 1rem;
-      max-width: 600px;
       padding: 0;
     }
   }
