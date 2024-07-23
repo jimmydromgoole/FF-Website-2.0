@@ -18,7 +18,6 @@ const highlightMenu = () => {
   const leagueInfoMenu = document.querySelector('#league-info-page');
   const githubMenu = document.querySelector('#github-page');
   let scrollPos = window.scrollY;
-  console.log(scrollPos);
 
 // adds 'highlight' class to my menu items
 if (window.innerWidth > 960 && scrollPos < 600) {
